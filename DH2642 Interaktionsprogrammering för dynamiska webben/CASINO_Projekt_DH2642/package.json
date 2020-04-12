@@ -1,0 +1,35 @@
+{
+  "name": "Casino-Project-DH2642-html-react",
+  "version": "1.2.5",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "firebase": "^7.6.1",
+    "js-sha3": "^0.8.0",
+    "react": "^16.8.1",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-dom": "^16.8.1",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^3.3.0",
+    "sha3": "^2.1.1",
+    "yarn": "^1.21.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

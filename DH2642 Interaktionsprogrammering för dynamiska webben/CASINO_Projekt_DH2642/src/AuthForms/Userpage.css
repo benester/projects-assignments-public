@@ -1,0 +1,50 @@
+.Userpage{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+.statusvalues{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: grey;
+    width: 600px;
+    /* height: 250px; */
+    margin-left: 25px;
+    font-size: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.statush2{
+    border-bottom-style: solid;
+    border-bottom-color: gold;
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+#aligntext{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+}
+
+
+.alignobjectright{
+    grid-column-start: 2;
+    grid-column-end: 2;
+
+}
+
+.alignobjectleft{
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+#Titleemail{
+    color: white;
+}

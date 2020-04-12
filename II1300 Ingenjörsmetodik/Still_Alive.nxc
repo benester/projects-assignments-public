@@ -1,0 +1,146 @@
+//PORTAL CREDITS SONG: STILL ALIVE
+
+/* Controls:
+ *
+ * Orange []: Switch between showing and setting volume and speed
+ * < and >: Change value
+ */
+
+//sheet music: http://www.scribd.com/doc/2183619/Portals-Still-Alive-Sheet-Music
+
+byte volume = 2;
+int speed = 90;
+
+sub MyPlayTone(unsigned int frequency, unsigned int duration)
+{
+  PlayToneEx(frequency, duration*speed/100, volume, false);
+}
+
+sub MyWait(unsigned long ms)
+{
+  Wait(ms*speed/100);
+}
+
+sub ClearLyrics()
+{
+  TextOut(0,LCD_LINE1, "                ", false);
+  TextOut(0,LCD_LINE2, "                ", false);
+  TextOut(0,LCD_LINE3, "                ", false);
+  TextOut(0,LCD_LINE4, "                ", false);
+  TextOut(0,LCD_LINE5, "                ", false);
+  TextOut(0,LCD_LINE6, "                ", false);
+  TextOut(0,LCD_LINE7, "                ", false);
+}
+
+void musik()
+{
+  //#: c,f
+  //This was a triumph.
+    TextOut(0,LCD_LINE1, "This was a      ", false); //16 chars/line
+  TextOut(0,LCD_LINE2, "triumph.        ", false);
+  MyPlayTone(784,200); //g3
+  MyWait(240);
+  MyPlayTone(740,200); //f#3
+  MyWait(240);
+  MyPlayTone(659,200); //e3
+  MyWait(240);
+  MyPlayTone(659,200); //e3
+  MyWait(240);
+  MyPlayTone(740,200); //f#3
+  MyWait(240);
+  MyWait(240); //wait 1/8
+  MyWait(480); //wait 1/4
+  MyWait(960); //wait 1/2
+
+  //I'm making a note here, HUGE SUCCESS.
+  ClearLyrics();
+  TextOut(0,LCD_LINE1, "I'm making a    ", false);
+  TextOut(0,LCD_LINE2, "note here,      ", false);
+  TextOut(0,LCD_LINE3, "                ", false);
+  TextOut(0,LCD_LINE4, "                ", false);
+  TextOut(0,LCD_LINE5, "HUGE SUCCESS.   ", false);
+  MyWait(480);
+  MyWait(240);
+  MyPlayTone(440,200);
+  MyWait(240);
+  MyPlayTone(784,200);
+  MyWait(240);
+  MyPlayTone(740,200);
+  MyWait(240);
+  MyPlayTone(659,200);
+  MyWait(240);
+  MyPlayTone(659,400);
+  MyWait(480);
+  MyPlayTone(740,200);
+  MyWait(240);
+  MyWait(480);
+  MyPlayTone(587,400);
+  MyWait(480);
+  MyPlayTone(659,200);
+  MyWait(240);
+  MyPlayTone(440,400);
+  MyWait(480);
+
+  //It's hard to overstate my satisfaction.
+  ClearLyrics();
+  TextOut(0,LCD_LINE1, "It's hard to    ", false);
+  TextOut(0,LCD_LINE2, "overstate my    ", false);
+  TextOut(0,LCD_LINE3, "satisfaction.   ", false);
+  MyWait(240);
+  MyWait(480);
+  MyWait(480);
+  MyWait(240);
+  MyPlayTone(440,200);
+  MyWait(240);
+  MyPlayTone(659,400);
+  MyWait(480);
+  MyPlayTone(740,400);
+  MyWait(480);
+  MyPlayTone(784,600);
+  MyWait(700);
+  MyPlayTone(659,200);
+  MyWait(240);
+  MyPlayTone(554,400);
+  MyWait(480);
+  MyPlayTone(587,600);
+  MyWait(700);
+  MyPlayTone(659,400);
+  MyWait(480);
+  MyPlayTone(440,200);
+  MyWait(240);
+  MyPlayTone(440,400);
+  MyWait(480);
+  MyPlayTone(740,400);
+  MyWait(480);
+  MyWait(240);
+  MyWait(960);
+
+  //Aperture Science,
+  ClearLyrics();
+  TextOut(0,LCD_LINE1, "  Aperture      ", false);
+  TextOut(0,LCD_LINE2, "     Science,   ", false);
+  MyWait(480);
+  MyWait(240);
+  MyPlayTone(784,200);
+  MyWait(240);
+  MyPlayTone(740,200);
+  MyWait(240);
+  MyPlayTone(659,200);
+  MyWait(240);
+  MyPlayTone(659,200);
+  MyWait(240);
+  MyPlayTone(740,200);
+  MyWait(240);
+  MyWait(240);
+  MyWait(480);
+  MyWait(960);
+
+  //we do what we must because we can.
+  ClearLyrics();
+  TextOut(0,LCD_LINE1, "we do what we   ", false);
+  TextOut(0,LCD_LINE2, "must            ", false);
+  TextOut(0,LCD_LINE3, "                ", false);
+  TextOut(0,LCD_LINE4, "   because      ", false);
+  TextOut(0,LCD_LINE5, "                ", false);
+  TextOut(0,LCD_LINE6, "       we can.  ", false);
+}

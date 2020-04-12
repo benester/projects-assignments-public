@@ -1,0 +1,35 @@
+#tempHomeID{
+    color:black;
+}
+
+@media screen and (max-width: 850px){
+    #LoginLogo{
+        width : 716px;
+        height: auto;
+    }
+}
+@media screen and (max-width: 750px){
+    #LoginLogo{
+        width: 616px;
+    }
+}
+@media screen and (max-width: 650px){
+    #LoginLogo{
+        width: 516px;
+    }
+}
+@media screen and (max-width: 550px){
+    #LoginLogo{
+        width: 416px;
+    }
+}
+@media screen and (max-width: 450px){
+    #LoginLogo{
+        width: 316px;
+    }
+}
+@media screen and (max-width: 350px){
+    #LoginLogo{
+        width: 216px;
+    }
+}

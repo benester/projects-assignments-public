@@ -1,0 +1,152 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<root>
+  <Forening orgNr="1" namn="Solgläntan" tillåterFleraParkeringar="ja">
+      <Fastighet adress="Kistagången 22" postort="Kista" postNr="14290" byggår="1990" antalVåningar="5">
+        <Hiss namn="Blå" maxAntalPers="8" maxVikt="800" besiktningsIntervall ="150"/>
+        <Hiss namn="Röd" maxAntalPers="4" maxVikt="400" besiktningsIntervall="150"/>
+        <Cykelrum yta="22"/>
+        <Tvättstuga yta="50">
+          <Utrustning typ ="Torktumlare" antal="2"/>
+          <Utrustning typ="Tvättmaskin" antal ="3"/>
+        </Tvättstuga>
+ 
+        <Lägenhet nr="1001" yta="50" våning="1" />
+        <Lägenhet nr="2001" yta="30" våning="2" />
+        <Lägenhet nr="3001" yta="40" våning="3" />
+        <Lägenhet nr="4001" yta="60" våning="4" />
+        <Lägenhet nr="5001" yta="22" våning="5" />
+ 
+      </Fastighet>
+    
+      <Fastighet adress="Kistagången 23" postort="Kista" postNr="14290" byggår="1991" antalVåningar="4">
+        <Tvättstuga yta="30">
+          <Utrustning typ = "Torktumlare" antal = "1"/>
+          <Utrustning typ= "Papper" antal ="1"/>
+        </Tvättstuga>
+        <Lägenhet nr="101" yta="50" våning="1" />
+        <Lägenhet nr="102" yta="30" våning="1" />
+        <Lägenhet nr="201" yta="40" våning="2" />
+        <Lägenhet nr="301" yta="60" våning="3" />
+        <Lägenhet nr="401" yta="22" våning="4" />
+ 
+      </Fastighet>
+      <Fastighet adress="Kistagången 23b" postort="Kista" postNr="14290" byggår="1993" antalVåningar="6">
+        <Lägenhet nr="11" yta="50" våning="1" />
+        <Lägenhet nr="21" yta="30" våning="2" />
+        <Lägenhet nr="31" yta="40" våning="3" />
+        <Lägenhet nr="41" yta="60" våning="4" />
+        <Lägenhet nr="51" yta="22" våning="5" />
+        <Lägenhet nr="61" yta="22" våning="6" />
+      </Fastighet>
+      </Forening>
+ 
+ 
+    <Forening orgNr="2" namn="HappyHouses" tillåterFleraParkeringar="ja" >
+      <Fastighet adress="Solvägen 1" postort="Årsta" postNr="12345" byggår="1950" antalVåningar="1">
+        <Hiss namn="Benji" maxAntalPers="10" maxVikt="1800" besiktningsIntervall="100"/>
+        <Hiss namn="Keorgekek" maxAntalPers="4" maxVikt="400" besiktningsIntervall="50"/>
+        
+        <Cykelrum yta="33"/>
+        
+        <Tvättstuga yta="45">
+          <Utrustning typ="Torktumlare" antal="5"/>
+          <Utrustning typ="Tvättmaskin" antal="6"/>
+        </Tvättstuga>
+ 
+ 
+        <Lägenhet nr="10001" yta="50" våning="1" />
+        
+      </Fastighet>
+ 
+      <Fastighet adress="Vintervägen 2" postort="Husby" postNr="16342" byggår="1980" antalVåningar="3">
+        <Lägenhet nr="111" yta="50" våning="1" />
+        <Lägenhet nr="221" yta="30" våning="2" />
+        <Lägenhet nr="331" yta="40" våning="3" />
+      </Fastighet>
+ 
+      <Fastighet adress="Vintervägen 3" postort="Husby" postNr="16342" byggår="1988" antalVåningar="5">
+        <Lägenhet nr="1111" yta="50" våning="1" />
+        <Lägenhet nr="2211" yta="30" våning="2" />
+        <Lägenhet nr="3311" yta="40" våning="3" />
+        <Lägenhet nr="4411" yta="60" våning="4" />
+        <Lägenhet nr="5511" yta="22" våning="5" />
+      </Fastighet>
+    </Forening>
+ 
+  <Forening orgNr="3" namn="noParking" tillåterFleraParkeringar="nej">
+ 
+    <Fastighet adress="Vårgatan 24" postort="Hammarby sjöstad" postNr="14421" byggår="2018" antalVåningar="22">
+      <Hiss namn="Palm" maxAntalPers="6" maxVikt="600" besiktningsIntervall="150"/>
+        
+      <Cykelrum namn="a" yta="333"/>
+      <Cykelrum namn="b" yta="444"/>
+      <Lägenhet nr="1" yta="50" våning="1" />
+      <Lägenhet nr="2" yta="50" våning="2" />
+      <Lägenhet nr="3" yta="60" våning="3" />
+      <Lägenhet nr="4" yta="70" våning="4" />
+      <Lägenhet nr="5" yta="80" våning="5" />
+      <Lägenhet nr="6" yta="90" våning="6" />
+      <Lägenhet nr="7" yta="160" våning="7" />
+      <Lägenhet nr="8" yta="260" våning="8" />
+ 
+    </Fastighet>
+ 
+    <Fastighet adress="Torskvägen 17B" postort="Tensta" postNr="17752" byggår="2019" antalVåningar="8">
+      <Lägenhet nr="1" yta ="20" våning="1" />
+    </Fastighet>
+ 
+  </Forening>
+ 
+ 
+  <Forening orgNr= "4" namn="BostäderINC" tillåterFleraParkeringar="ja">
+ 
+    <Fastighet adress="Höstvägen 22" postort="Jakobsberg" postNr="12312" byggår="2018" antalVåningar="3">
+ 
+      <Lägenhet nr="100" yta="50" våning="1" />
+      <Lägenhet nr="200" yta="30" våning="2" />
+      <Lägenhet nr="300" yta="40" våning="3" />
+      <Tvättstuga yta="35">
+        <Utrustning typ="Torktumlare" antal="3"/>
+        <Utrustning typ="Tvättmaskin" antal="3"/> 
+      </Tvättstuga>
+    </Fastighet>
+ 
+  </Forening>
+ 
+ 
+  <Forening orgNr="5" namn="braBostäder" tillåterFleraParkeringar="nej">
+    <Fastighet adress="Sommargatan 74" postort="Rissne" postNr="14735" byggår="2000" antalVåningar="3">
+        <Lägenhet nr="10" yta="50" våning="1" />
+        <Lägenhet nr="20" yta="30" våning="2" />
+        <Lägenhet nr="30" yta="40" våning="3" />
+    </Fastighet>
+  </Forening>
+ 
+ <Forening orgNr="6" namn="konstigFörening" tillåterFleraParkeringar="nej">
+   <Fastighet adress="Konstigvägen 1" postort="Åmål" postNr="22331" byggår="2005" antalVåningar="2">
+	<Lägenhet nr="7" yta="15" våning="1" />
+	<Lägenhet nr="8" yta="20" våning="2" />
+   </Fastighet>
+ 
+  <Fastighet adress="Konstigvägen 2" postort="Åmål" postNr="22331" byggår="2005" antalVåningar="3">
+	<Lägenhet nr="17" yta="15" våning="1" />
+	<Lägenhet nr="18" yta="20" våning="2" />
+<Lägenhet nr="19" yta="25" våning="3" />
+ 
+<Hiss namn="goodOne" maxAntalPers="100" maxVikt="18000" besiktningsIntervall="100"/>
+      <Hiss namn="badOne" maxAntalPers="40" maxVikt="4000" besiktningsIntervall="50"/>
+	
+	<Tvättstuga yta="50">
+        <Utrustning typ="Värmeskåp" antal="3"/>
+        <Utrustning typ="Tvättmaskin" antal="3"/> 
+      </Tvättstuga>
+ 
+	<Cykelrum yta="33"/>
+ 
+   </Fastighet>
+ 
+ </Forening>
+ 
+</root> 
+
+

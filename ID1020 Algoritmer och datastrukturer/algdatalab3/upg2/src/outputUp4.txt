@@ -1,0 +1,9 @@
+Enter N amount of words to be counted.(N magnitude 100)
+3
+
+17.0
+max: Chapter 35
+distinct = 171
+words    = 300
+
+Process finished with exit code 0

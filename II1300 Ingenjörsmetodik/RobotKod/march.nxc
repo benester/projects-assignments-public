@@ -1,0 +1,7 @@
+#define wheels OUT_BC
+
+task main()
+{
+  Wait(2000);
+  RotateMotorEx(wheels,80,5300,0,1,1);
+}

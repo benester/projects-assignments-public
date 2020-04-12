@@ -1,0 +1,125 @@
+.gameDisplay a {
+	/* to display several clickable blocks in the same row */
+	display: inline-block;
+	/*Margin and padding to stop text/img from beeing at the very edge*/
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+
+	/*Set background color and and a rounded border to the tag*/
+	background-color: white;
+	border: solid;
+	border-color: black;
+	border-radius: 25px;
+	-moz-box-shadow: 0 0 3px black;
+	-webkit-box-shadow: 0 0 3px black;
+	box-shadow: 0 0 3px black;
+	transition: 0.5s;
+}
+/*to stop games beeing all gray on mobile devices*/
+@media (hover:hover){
+	.gameDisplay a:hover {
+		-moz-box-shadow: 0 0 25px #feef00;
+		-webkit-box-shadow: 0 0 25px #feef00;
+		box-shadow: 0 0 25px #feef00;
+		border-color: #feef00;
+		transition: 0.5s;
+	}
+}
+
+.gameDisplay p {
+	/*makes the text visible and in the right corner*/
+	color: black;
+	text-align: right;
+	display: inline;
+	font-size: 20px;
+}
+
+#questionMarkTag {
+	/*Define a size for the question mark icon*/
+	height: 30px;
+	width: 30px;
+	/*Set questionmark in the right corner*/
+	float: right;
+}
+
+#gamePageFundBox{
+	border: dashed;
+	border-color: black;
+	border-radius: 20px;
+	color: black;
+	margin: 3% auto;
+	width: 360px;
+	height: 120px;
+	background-color: white;
+}
+
+#addedFunds{
+	display: block;
+	font-size: 12px;
+	text-align: center;
+	margin: auto auto;
+}
+
+#gamePageFundBox h3, input {
+	color: black;
+}
+
+#gamePageFundsButton{
+	margin-left: 7px;
+}
+
+.gameDisplay h3{
+	padding-top: 10px;
+}
+
+/*Set the height and width of the pictures in correct scale*/
+#gamePic {
+	height: 346px;
+	width: 250px;
+}
+@media screen and (max-width: 1143px){
+	.gameDisplay  .hoverText{
+		left: 20% !important;
+	}
+}
+
+@media screen and (max-width: 1010px){
+	#gamePic{
+		height: 300px;
+		width: 217px;
+	}
+	#questionMarkTag{
+		height: 25px;
+		width: 25px
+	}
+	.gameDisplay  .hoverText{
+		font-size: 13px;
+		left: 0% !important;
+	}
+}
+
+@media screen and (max-width: 620px){
+	#gamePic{
+		height: 200px;
+		width: 144px;
+	}
+	#questionMarkTag{
+		height: 20px;
+		width: 20px
+	}
+	.gameDisplay .hoverText{
+		font-size: 10px !important;
+		left: 0% !important;
+		margin-left: -70px !important;
+	}
+}
+
+@media screen and (max-width: 525px){
+	.gameDisplay a{
+		margin-right: 100px;
+	}
+}

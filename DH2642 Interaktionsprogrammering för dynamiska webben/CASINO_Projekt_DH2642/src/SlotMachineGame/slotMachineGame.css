@@ -1,0 +1,156 @@
+#spinButton{
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 50px;
+}
+
+#spinButton {
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:6px;
+    border:1px solid #ffaa22;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:16px 40px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+#spinButton:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	background-color:#ffab23;
+}
+
+#spinButton:disabled{
+	background:linear-gradient(to bottom, gray 5%, darkgray 100%);
+    color:white;
+    background-color:gray;
+    border-color: darkgray;
+}
+
+#spinResults, #winResults{
+	color:gold;
+}
+
+#spaceing{
+    margin-top:1%;
+}
+
+.SlotMachineGame img{
+	height: 314px;
+	width: auto;
+}
+
+#leaveButton{
+    text-decoration: none;
+    display:inline-block;
+    margin-left: 50%;
+    color:darkgray;
+}
+
+#leaveButton:hover{
+    color: red;
+	text-shadow: 1px 1px 10px red;
+    transition: 0.2s;
+    text-decoration: underline;
+}
+
+#hiddenSlotMachineCards, #slotMachineCards{
+    display: inline-block;
+    position: relative;
+}
+
+#smdesc {
+    margin-bottom: 4px;
+}
+
+#smxs {
+    margin-top:4px;
+    font-size: 12px;
+}
+.SlotMachineGame .hoverText{
+	left:-40% !important;
+	margin-left:0px;
+}
+.SlotMachineGame .hoverOver p{
+	font-size: 23px;
+}
+#loader{
+	width: 140px !important;
+	height: 140px !important;
+}
+
+@media screen and (max-width: 1047px){
+
+	.SlotMachineGame img{
+		height: 280px; 
+		width: auto;
+	}
+	#spinButton{
+		margin-top: 120px;
+		padding: 10px 25px;
+		font-size: 15px;
+	}
+}
+@media screen and (max-width: 890px){
+	.SlotMachineGame img{
+		height: 220px; 
+		width: auto;
+	}
+	#spinButton{
+		margin-top: 90px;
+		margin-left: 25px;
+	}
+}
+
+@media screen and (max-width: 760px){
+	.SlotMachineGame img{
+		height: 180px; 
+		width: auto;
+	}
+	#spinButton{
+		margin-top: 70px;
+	}
+	.SlotMachineGame h1{
+		font-size: 20px;
+	}
+	.SlotMachineGame #smdesc, #smxs{
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 623px){
+	.SlotMachineGame img{
+		height: 160px; 
+		width: auto;
+	}
+	#spinButton{
+		margin-top: 60px;
+		padding: 8px 19px;
+		font-size: 13px;
+	}
+}
+@media screen and (max-width: 543px){
+	.SlotMachineGame img{
+		height: 120px; 
+		width: auto;
+	}
+	#spinButton{
+		margin-top: 40px;
+		padding: 5px 12px;
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 425px){
+	.SlotMachineGame img{
+		height: 100px;
+		width: auto;
+	}
+
+}
+
+

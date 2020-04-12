@@ -1,0 +1,17 @@
+#include "findwall.h"
+#include "drivetowall.h"
+#include "rotera90.h"
+#include "march.h"
+#include "throwbook.h"
+
+task main() {
+    Wait(2000);
+    FindWall();
+    DriveToWall();
+    Rotera90V();
+    March();
+    FindWall();
+    DriveToWall();
+    ThrowBook();
+
+}

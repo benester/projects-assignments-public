@@ -1,0 +1,68 @@
+* {
+	/*set all text to same font*/
+	font-family: "Oswald", sans-serif;
+	text-decoration: none;
+	color: white;
+}
+
+html,
+body {
+	/*no white boarders at the edges and set background to green*/
+	margin: 0px;
+	background-color: #076324;
+	height: 100%;
+	/* This is most likely just a temporary fix */
+	/*overflow: hidden;*/
+}
+
+.App {
+	/*center the text and remove hyperlink color & underline */
+	text-align: center;
+	height: 100%;
+}
+
+
+.App-header {
+	border-bottom: solid;
+	border-color: gold;
+}
+/*
+button {
+	color: black;
+}*/
+
+
+/*------------------For all of the hover to show text occurances--------------------------*/
+.hoverOver {
+	position: relative;
+  }
+  
+  .hoverOver .hoverText {
+	margin-bottom: 8px;
+	visibility: hidden;
+	width: 300px;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 10px 10px;
+	position: absolute;
+	z-index: 1;
+	bottom: 125%;
+	left: 50%;
+	margin-left: -55px; 
+	opacity: 0;
+	transition: opacity 0.3s;
+  }
+  
+  .hoverOver:hover .hoverText {
+	visibility: visible;
+	opacity: 1;
+  }
+
+  @media screen and (max-width: 400px){
+	.hoverText{
+		font-size: 13px;
+	}
+  }
+  /*----------------------------------------------------*/

@@ -1,0 +1,91 @@
+#logIn p{
+    color: black;
+}
+
+#clicktext{
+    font-family: Poppins-Regular;
+    font-size: 20px;
+    color:
+    #4d3f3f;
+    line-height: 1.5;
+    cursor: pointer;
+}
+.modal-content *{
+color: black;
+}
+.allholders{
+    text-align: center !important;
+    color: black !important;
+
+}
+.allholders > input 
+{
+    width: 70% !important;
+    text-align: center !important;
+    color: black !important;
+}
+
+.modal-title{
+    margin: 0;
+}
+.hidebtn{
+    display: block;
+}
+
+.buttonholder{
+   text-align: center;
+   display: flex;
+   justify-content: center;
+}
+
+
+.logininput
+{
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    color:
+    rgb(0, 0, 0);
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    height: 45px;
+    background: 0 0;
+    padding: 0 5px 0 38px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    border-bottom: 2px solid RGBA(169, 169, 169, 1);
+}
+
+/* ::placeholder {
+  opacity: 1;
+  color: black;
+} */
+
+
+#flexgrid{
+    display: flex;
+    justify-content: center;
+}
+
+.Formholder{
+    width: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 55px 55px 37px;
+    /* background-image: url('http://i.stack.imgur.com/kx8MT.gif'); */
+    background-color:#1fdb6d;
+    background-image: linear-gradient(141deg,#9fb8ad 0%, #1fdb7d 51%, #2ce864 75%);
+    text-align: center;
+    align-items: center;
+} 
+
+#logintext{
+    font-family: Poppins-Bold;
+    font-size: 24px;
+    color: black;
+    line-height: 1.2;
+    text-align: center;
+    width: 100%;
+    display: block;
+}

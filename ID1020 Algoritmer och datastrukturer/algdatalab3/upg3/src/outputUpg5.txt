@@ -1,0 +1,11 @@
+Input n and x
+1
+5
+the
+and
+of
+to
+a
+in
+
+Process finished with exit code 0

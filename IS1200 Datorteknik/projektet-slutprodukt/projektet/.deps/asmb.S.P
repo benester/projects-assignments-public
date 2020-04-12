@@ -1,0 +1,2 @@
+asmb.S.o: asmb.S
+asmb.S :
